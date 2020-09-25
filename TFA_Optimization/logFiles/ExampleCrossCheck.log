@@ -1,0 +1,159 @@
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:07:05 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCrossCheck.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:11:45 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCrossCheck.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 6500 columns and 0 nonzeros
+Model fingerprint: 0x4ee41e0e
+Model has 34190 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [4e-02, 2e+03]
+  QObjective range [7e-02, 5e+03]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1040 columns
+Presolve time: 0.02s
+Presolved: 0 rows, 5460 columns, 0 nonzeros
+Presolved model has 32500 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 5330
+ AA' NZ     : 8.983e+04
+ Factor NZ  : 1.119e+05 (roughly 7 MBytes of memory)
+ Factor Ops : 3.097e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -2.07387251e+08 -3.04513089e+07  2.67e+03 2.56e+01  1.00e+06     0s
+   1   1.35882433e+07 -8.67856645e+06  1.30e+01 1.25e-01  9.07e+03     0s
+   2   5.85257008e+06  2.92936824e+05  2.04e-01 1.95e-03  1.08e+03     0s
+   3   3.58491433e+06  2.74481830e+06  2.04e-07 1.95e-09  1.54e+02     0s
+   4   3.24539679e+06  3.13799990e+06  5.84e-11 5.58e-13  1.97e+01     0s
+   5   3.20371552e+06  3.18616656e+06  1.83e-12 2.13e-14  3.21e+00     0s
+   6   3.19562706e+06  3.19380719e+06  2.39e-15 6.82e-13  3.33e-01     0s
+   7   3.19459590e+06  3.19450112e+06  3.01e-15 6.82e-13  1.74e-02     0s
+   8   3.19452619e+06  3.19452362e+06  5.59e-14 4.55e-13  4.70e-04     0s
+   9   3.19452466e+06  3.19452457e+06  1.34e-12 6.82e-13  1.64e-05     0s
+  10   3.19452462e+06  3.19452462e+06  8.10e-12 4.55e-13  8.13e-07     0s
+  11   3.19452462e+06  3.19452462e+06  2.82e-11 6.82e-13  5.47e-08     0s
+  12   3.19452462e+06  3.19452462e+06  2.24e-10 6.82e-13  3.92e-09     0s
+
+Barrier solved model in 12 iterations and 0.10 seconds
+Optimal objective 3.19452462e+06
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:25:44 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCrossCheck.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 6500 columns and 0 nonzeros
+Model fingerprint: 0x1965d1fc
+Model has 34190 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [4e+01, 3e+04]
+  QObjective range [1e-06, 2e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 0 rows and 650 columns
+Presolve time: 0.02s
+Presolved: 0 rows, 5850 columns, 0 nonzeros
+Presolved model has 33540 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 5720
+ AA' NZ     : 1.054e+05
+ Factor NZ  : 1.247e+05 (roughly 8 MBytes of memory)
+ Factor Ops : 3.588e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -2.17864035e+10 -2.20420560e+07  2.80e+03 9.77e+01  9.97e+05     0s
+   1  -1.27791644e+08 -1.83632315e+07  1.75e+01 6.13e-01  1.09e+04     0s
+   2   1.55595021e+06 -6.44856015e+06  1.75e-05 6.13e-07  1.37e+03     0s
+   3   6.59312377e+04 -5.95003448e+05  8.06e-08 2.82e-09  1.13e+02     0s
+   4   6.47835661e+03 -6.06096684e+04  1.92e-09 6.71e-11  1.15e+01     0s
+   5   4.47644276e+03  1.59476726e+03  2.98e-14 1.46e-11  4.93e-01     0s
+   6   4.45843067e+03  4.45234919e+03  5.57e-15 1.46e-11  1.04e-03     0s
+   7   4.45842975e+03  4.45842366e+03  4.14e-14 1.46e-11  1.04e-06     0s
+   8   4.45842975e+03  4.45842975e+03  6.32e-14 1.27e-11  1.04e-09     0s
+
+Barrier solved model in 8 iterations and 0.11 seconds
+Optimal objective 4.45842975e+03
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:37:08 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCrossCheck.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 6500 columns and 0 nonzeros
+Model fingerprint: 0xc53b37b3
+Model has 34190 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [6e+01, 3e+04]
+  QObjective range [4e-08, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 0 rows and 650 columns
+Presolve time: 0.02s
+Presolved: 0 rows, 5850 columns, 0 nonzeros
+Presolved model has 33540 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 5720
+ AA' NZ     : 1.031e+05
+ Factor NZ  : 1.287e+05 (roughly 8 MBytes of memory)
+ Factor Ops : 3.818e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -2.37951928e+10 -2.11321526e+07  2.89e+03 1.26e+02  9.97e+05     0s
+   1  -1.56652522e+08 -1.84730626e+07  2.01e+01 8.75e-01  1.16e+04     0s
+   2   1.63958626e+06 -6.64153120e+06  2.01e-05 8.75e-07  1.42e+03     0s
+   3   7.43199180e+04 -6.26704443e+05  6.24e-08 2.72e-09  1.20e+02     0s
+   4   8.91288563e+03 -1.04294141e+05  8.02e-09 3.49e-10  1.94e+01     0s
+   5   4.33472593e+03 -1.00885212e+04  2.06e-14 1.09e-11  2.47e+00     0s
+   6   4.28273412e+03  4.25672866e+03  2.70e-15 1.82e-11  4.45e-03     0s
+   7   4.28272350e+03  4.28269735e+03  1.35e-14 1.46e-11  4.47e-06     0s
+   8   4.28272350e+03  4.28272348e+03  1.46e-14 1.46e-11  4.48e-09     0s
+
+Barrier solved model in 8 iterations and 0.13 seconds
+Optimal objective 4.28272350e+03
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:49:50 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCrossCheck.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0

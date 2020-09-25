@@ -1,0 +1,153 @@
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:24:30 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCS.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 1882 columns and 0 nonzeros
+Model fingerprint: 0x4051e847
+Model has 3548 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [3e-03, 2e+01]
+  QObjective range [1e+02, 2e+02]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 0 rows, 1882 columns, 0 nonzeros
+Presolved model has 3548 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 1882
+ AA' NZ     : 5.620e+02
+ Factor NZ  : 1.666e+03 (roughly 2 MBytes of memory)
+ Factor Ops : 3.650e+03 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.59520926e+06  1.45882497e+03  3.50e+03 1.00e+03  9.94e+05     0s
+   1   6.78920639e+07 -6.79170484e+07  1.43e+02 4.09e+01  1.56e+05     0s
+   2   1.25583067e+07 -1.26497263e+07  1.43e-04 4.09e-05  2.28e+04     0s
+   3   1.82971884e+06 -1.86343613e+06  1.43e-10 4.10e-11  3.35e+03     0s
+   4   2.64681905e+05 -2.76305684e+05  2.03e-13 1.12e-13  4.90e+02     0s
+   5   3.79882496e+04 -4.11736832e+04  8.53e-14 1.26e-13  7.17e+01     0s
+   6   5.74598511e+03 -5.75992396e+03  4.75e-14 1.14e-13  1.04e+01     0s
+   7   1.36487245e+03 -2.90569737e+02  1.12e-14 5.68e-14  1.50e+00     0s
+   8   8.16142716e+02  5.50588452e+02  5.28e-15 9.97e-14  2.41e-01     0s
+   9   7.38895196e+02  6.98591349e+02  4.17e-14 5.68e-14  3.65e-02     0s
+  10   7.28280326e+02  7.23929013e+02  3.17e-14 8.02e-14  3.94e-03     0s
+  11   7.27116638e+02  7.26741596e+02  9.40e-14 1.11e-13  3.40e-04     0s
+  12   7.27011880e+02  7.26994527e+02  1.41e-13 6.10e-14  1.57e-05     0s
+  13   7.27006526e+02  7.27005766e+02  1.61e-13 8.53e-14  6.89e-07     0s
+  14   7.27006200e+02  7.27006165e+02  4.44e-13 6.18e-14  3.24e-08     0s
+  15   7.27006184e+02  7.27006182e+02  2.85e-12 7.59e-14  1.53e-09     0s
+
+Barrier solved model in 15 iterations and 0.02 seconds
+Optimal objective 7.27006184e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:35:36 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCS.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 1882 columns and 0 nonzeros
+Model fingerprint: 0x495bb0d0
+Model has 3548 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [7e-04, 2e+01]
+  QObjective range [1e+02, 2e+02]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 0 rows, 1882 columns, 0 nonzeros
+Presolved model has 3548 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 1882
+ AA' NZ     : 5.620e+02
+ Factor NZ  : 1.666e+03 (roughly 2 MBytes of memory)
+ Factor Ops : 3.650e+03 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.52390420e+06  1.46007852e+03  3.50e+03 1.00e+03  9.94e+05     0s
+   1   6.97541847e+07 -6.98619233e+07  1.08e+02 3.08e+01  1.52e+05     0s
+   2   1.22083083e+07 -1.22981871e+07  1.08e-04 3.08e-05  2.22e+04     0s
+   3   1.77858376e+06 -1.81177378e+06  1.08e-10 3.09e-11  3.25e+03     0s
+   4   2.57209585e+05 -2.68702632e+05  1.64e-13 6.75e-14  4.76e+02     0s
+   5   3.68628454e+04 -4.00762890e+04  8.94e-14 5.68e-14  6.97e+01     0s
+   6   5.52748607e+03 -5.64076656e+03  3.25e-14 9.55e-14  1.01e+01     0s
+   7   1.25191117e+03 -3.11800928e+02  1.42e-14 1.33e-13  1.42e+00     0s
+   8   7.17745960e+02  4.83741324e+02  1.07e-14 6.73e-14  2.12e-01     0s
+   9   6.44415821e+02  6.10765747e+02  4.39e-14 5.68e-14  3.05e-02     0s
+  10   6.34736781e+02  6.29144281e+02  1.21e-13 3.48e-14  5.07e-03     0s
+  11   6.33010949e+02  6.32512634e+02  5.74e-14 8.57e-14  4.51e-04     0s
+  12   6.32841100e+02  6.32817246e+02  1.36e-12 1.08e-13  2.16e-05     0s
+  13   6.32832184e+02  6.32831166e+02  6.56e-13 5.31e-14  9.23e-07     0s
+  14   6.32831702e+02  6.32831639e+02  1.61e-11 5.70e-14  5.68e-08     0s
+  15   6.32831675e+02  6.32831672e+02  2.26e-11 5.68e-14  2.54e-09     0s
+
+Barrier solved model in 15 iterations and 0.03 seconds
+Optimal objective 6.32831675e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:47:39 2020
+
+Changed value of parameter LogFile to logFiles/ExampleCS.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 0 rows, 1882 columns and 0 nonzeros
+Model fingerprint: 0xc465f4a9
+Model has 3548 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [9e-04, 2e+01]
+  QObjective range [1e+02, 2e+02]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 0 rows, 1882 columns, 0 nonzeros
+Presolved model has 3548 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 1882
+ AA' NZ     : 5.620e+02
+ Factor NZ  : 1.666e+03 (roughly 2 MBytes of memory)
+ Factor Ops : 3.650e+03 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.89292108e+06  1.46033672e+03  3.50e+03 1.00e+03  9.94e+05     0s
+   1   7.07555137e+07 -7.09218665e+07  5.60e+01 1.60e+01  1.41e+05     0s
+   2   1.13862640e+07 -1.14706993e+07  5.60e-05 1.60e-05  2.07e+04     0s
+   3   1.65878061e+06 -1.68990900e+06  5.59e-11 1.61e-11  3.03e+03     0s
+   4   2.39888608e+05 -2.50614916e+05  4.12e-13 3.55e-14  4.44e+02     0s
+   5   3.44022868e+04 -3.73464104e+04  3.11e-13 9.86e-14  6.50e+01     0s
+   6   5.18373020e+03 -5.22215739e+03  5.15e-14 4.14e-14  9.43e+00     0s
+   7   1.19365589e+03 -2.58572869e+02  3.21e-14 5.68e-14  1.32e+00     0s
+   8   6.82980923e+02  4.89323481e+02  2.09e-14 5.68e-14  1.75e-01     0s
+   9   6.18866145e+02  5.95972864e+02  3.07e-13 4.05e-14  2.07e-02     0s
+  10   6.11366722e+02  6.09448447e+02  2.05e-13 5.68e-14  1.74e-03     0s
+  11   6.10726136e+02  6.10618169e+02  2.70e-13 5.68e-14  9.78e-05     0s
+  12   6.10686865e+02  6.10683140e+02  2.29e-13 5.68e-14  3.37e-06     0s
+  13   6.10685254e+02  6.10685087e+02  7.16e-13 4.94e-14  1.51e-07     0s
+  14   6.10685183e+02  6.10685174e+02  6.90e-11 7.73e-14  7.82e-09     0s
+  15   6.10685179e+02  6.10685179e+02  1.17e-10 6.06e-14  4.07e-10     0s
+
+Barrier solved model in 15 iterations and 0.03 seconds
+Optimal objective 6.10685179e+02
+
