@@ -7,6 +7,7 @@ import numpy
 import scipy.stats
 import math
 import random
+import sys
 
 """
 path to a CSV file of TFA values is required input [-a]
@@ -51,6 +52,13 @@ def parseInputs():
                 	default=3, choices = [0, 2, 3],
                 	help='direction of expected activity behavior relative to WT\
                 	\n 0: decrease\t 2: increase\t: 3: unknown')
+	parser.add_argument('--bootstrapSignificance', '-b', type=int, 
+					dest='bootstrapFlag', action='store',
+                	default=0, choices = [0, 1],
+                	help='whether to calculate the significance of bootstrapped \
+                        fraction of positive correlation between TFA and mRNA.\
+                        Warning: this will take some time to run\
+                	\n 0: no\t 2: yes')
 	parser.add_argument('--mRNA', '-m', '--mrna', type=str,
 					dest='mrnaFile', action='store',
 			help='path to csv file of measured TF mRNA')
@@ -210,18 +218,53 @@ def rankTFs(tfaValues, expectedValues):
 """
 checks for positive correlations b/w inferred TFA values and measured mRNA values of the TFs
 
-will also do 1000 bootstrap samplings of the samples/columns to control for bias from outlier samples
+will do 1000 bootstrap samplings of the samples/columns to control for bias from outlier samples
+
+will also calculate the pVal of bootstrapped results if requested, by creating an empirical null model
+        randomly pairing tfa values with mrna values, what do we get as the bootstrap results?
+        repeat 1000 times to get a null distribution
 
 returns the number of positive correlations
         the median number of positive correlations among the bootstraps
+        the pVal of bootstrapping approach, or 2 if pVal was not requested
 """
-def checkCorrelation(tfaValues, mrnaValues):
+def checkCorrelation(tfaValues, mrnaValues, bootstrapFlag):
         numPositive = 0
         for i in range(len(tfaValues)):
                 corr, pVal = scipy.stats.pearsonr(tfaValues[i], mrnaValues[i])
                 if corr > 0:
                         numPositive += 1
         
+        bootstrappedResults = bootstrapCorrelations(tfaValues, mrnaValues)
+        pVal = 2
+
+        if bootstrapFlag == 1:
+                nullModel = numpy.array([])
+                for i in range(1000):
+                        sys.stdout.write('creating null distribution')
+                        sys.stdout.write('\r')
+                        sys.stdout.write("[%-20s] %d%% " % ('='*int(i/50), i/10))
+                        #sys.stdout.write("[%-20s] %d%% " % ('='*int(i*2), i*10))
+                        sys.stdout.flush()
+                        numpy.random.shuffle(tfaValues)
+                        nullResults = bootstrapCorrelations(tfaValues, mrnaValues)
+                        nullModel = numpy.append(nullModel,nullResults)
+                sys.stdout.write('\r')
+                sys.stdout.write("[%-20s]%d%% " % ('='*20, 100))
+                sys.stdout.flush()
+                sys.stdout.write('\r')
+                print()
+		#print("\n", bootstrappedResults, "\t", nullModel[nullModel>=bootstrappedResults])
+                pVal = len(nullModel[nullModel>=bootstrappedResults])/1000.0
+                        
+
+        return [numPositive, bootstrappedResults, pVal]
+
+"""
+checks for positive correlations b/w inferred TFA values and measured mRNA values of the TFs
+repeats over 1000 bootstrap samplings of the samples/columns to control for bias from outlier samples
+"""
+def bootstrapCorrelations(tfaValues, mrnaValues):
         bootstrappedResults = []
         for i in range(1000):
                 bootstrapSampling = random.choices(range(len(tfaValues[0])), k=len(tfaValues[0]))
@@ -234,7 +277,8 @@ def checkCorrelation(tfaValues, mrnaValues):
                                 positiveCorrelation += 1
                 bootstrappedResults.append(positiveCorrelation)
 
-        return [numPositive, numpy.median(bootstrappedResults)]
+        return numpy.median(bootstrappedResults)
+
 
 def main():
         [args, fileInputs] = parseInputs()
@@ -263,13 +307,19 @@ def main():
                 
         if numpy.shape(fileInputs[4]) != ():
                 mrnaValues = fileInputs[4]
-                [numPositive, medianBootstrapped] = checkCorrelation(tfaValues, mrnaValues)
+                [numPositive, medianBootstrapped, bootstrapPval] = checkCorrelation(tfaValues, mrnaValues,
+                                                                                    args.bootstrapFlag)
                 correlationSignificance = scipy.stats.binom_test(numPositive, len(tfaValues), 0.5, 'greater')
                 print("Percent positive correlation between TFA and mRNA:\n\t",
                       float(numPositive)/float(len(tfaValues)),
                       "\tp-value: ", "{:.2e}".format(correlationSignificance))
-                print("Percent positive correlation between TFA and mRNA (bootstrapped median):\n\t",
-                      float(medianBootstrapped)/float(len(tfaValues)))
+                if args.bootstrapFlag == 1:
+                        print("Percent positive correlation between TFA and mRNA (bootstrapped median):\n\t",
+                              float(medianBootstrapped)/float(len(tfaValues)),
+                              "\tp-value: ", "{:.2e}".format(bootstrapPval))
+                else:
+                        print("Percent positive correlation between TFA and mRNA (bootstrapped median):\n\t",
+                              float(medianBootstrapped)/float(len(tfaValues)))
 
 
 
