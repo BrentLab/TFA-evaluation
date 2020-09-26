@@ -217,3 +217,852 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
 Barrier solved model in 6 iterations and 0.07 seconds
 Optimal objective 6.06268992e+02
 
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 17:59:38 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x929900c1
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [5e+01, 3e+04]
+  QObjective range [4e-08, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.01s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.942e+04
+ Factor NZ  : 1.469e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 9.949e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.64978539e+09 -8.24676164e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -2.85546477e+06 -1.60548829e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.37116643e+03 -1.53176847e+05  1.65e-02 7.08e-06  6.04e+01     0s
+   3   5.87910143e+02  3.32785585e+01  4.16e-05 1.78e-08  2.22e-01     0s
+   4   6.00425432e+02  5.99845268e+02  6.78e-10 2.91e-13  2.28e-04     0s
+   5   6.00425637e+02  6.00425056e+02  6.82e-13 7.28e-12  2.28e-07     0s
+   6   6.00425637e+02  6.00425637e+02  2.73e-12 1.46e-11  2.28e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 6.00425637e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:07:51 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xa1aa9203
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e+01, 3e+04]
+  QObjective range [4e-08, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.818e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.71644584e+09 -8.26888455e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -2.87507874e+06 -1.60548960e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.44245496e+03 -1.53366740e+05  1.66e-02 7.13e-06  6.04e+01     0s
+   3   5.84984774e+02  4.99591859e+01  3.96e-05 1.70e-08  2.15e-01     0s
+   4   5.96994458e+02  5.96434227e+02  6.55e-10 2.77e-13  2.20e-04     0s
+   5   5.96994658e+02  5.96994097e+02  1.36e-12 1.46e-11  2.20e-07     0s
+   6   5.96994658e+02  5.96994658e+02  9.09e-13 2.18e-11  2.20e-10     0s
+
+Barrier solved model in 6 iterations and 0.06 seconds
+Optimal objective 5.96994658e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:19:26 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x67e746da
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [2e+01, 3e+04]
+  QObjective range [9e-12, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.799e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.82113416e+09 -8.27797862e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -2.90583316e+06 -1.60549016e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.51640528e+03 -1.53465778e+05  1.67e-02 7.15e-06  6.05e+01     0s
+   3   5.83244735e+02  5.34865238e+01  3.92e-05 1.68e-08  2.13e-01     0s
+   4   5.95229202e+02  5.94673156e+02  6.61e-10 2.81e-13  2.18e-04     0s
+   5   5.95229406e+02  5.95228849e+02  4.55e-13 9.09e-12  2.18e-07     0s
+   6   5.95229406e+02  5.95229405e+02  9.09e-13 1.46e-11  2.19e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.95229406e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:31:09 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x1d507fc5
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e+00, 4e+04]
+  QObjective range [3e-12, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.848e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.97897258e+09 -8.28145826e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -2.95218808e+06 -1.60549044e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.61042857e+03 -1.53521923e+05  1.67e-02 7.16e-06  6.05e+01     0s
+   3   5.81629390e+02  5.29543678e+01  3.91e-05 1.67e-08  2.12e-01     0s
+   4   5.93778316e+02  5.93221756e+02  6.74e-10 2.88e-13  2.18e-04     0s
+   5   5.93778527e+02  5.93777970e+02  1.14e-12 1.46e-11  2.19e-07     0s
+   6   5.93778527e+02  5.93778527e+02  1.36e-12 1.46e-11  2.19e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.93778527e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:41:48 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x16173dbe
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [1e-01, 4e+04]
+  QObjective range [2e-12, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.04s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.854e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.01854006e+10 -8.28273504e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.01281156e+06 -1.60549059e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.72774593e+03 -1.53566346e+05  1.68e-02 7.18e-06  6.05e+01     0s
+   3   5.80294534e+02  5.10095151e+01  3.92e-05 1.68e-08  2.12e-01     0s
+   4   5.92725611e+02  5.92166709e+02  6.84e-10 2.95e-13  2.19e-04     0s
+   5   5.92725829e+02  5.92725270e+02  1.82e-12 1.46e-11  2.19e-07     0s
+   6   5.92725829e+02  5.92725829e+02  9.09e-13 2.18e-11  2.20e-10     0s
+
+Barrier solved model in 6 iterations and 0.09 seconds
+Optimal objective 5.92725829e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:51:54 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xfb62f45d
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [4e-01, 4e+04]
+  QObjective range [4e-12, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.854e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.04213599e+10 -8.28319225e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.08211241e+06 -1.60549066e+07  9.40e+00 4.03e-03  6.59e+03     0s
+   2  -4.85822231e+03 -1.53598912e+05  1.68e-02 7.18e-06  6.05e+01     0s
+   3   5.79273635e+02  4.88166774e+01  3.94e-05 1.69e-08  2.13e-01     0s
+   4   5.92044523e+02  5.91482785e+02  6.88e-10 2.95e-13  2.20e-04     0s
+   5   5.92044748e+02  5.92044185e+02  1.14e-12 2.91e-11  2.21e-07     0s
+   6   5.92044748e+02  5.92044747e+02  9.09e-13 2.18e-11  2.21e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.92044748e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 18:59:57 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x0a4c982b
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e-01, 4e+04]
+  QObjective range [7e-12, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.854e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.06783921e+10 -8.28331586e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.15760288e+06 -1.60549071e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -4.99748203e+03 -1.53619762e+05  1.68e-02 7.19e-06  6.05e+01     0s
+   3   5.78462968e+02  4.68939308e+01  3.95e-05 1.69e-08  2.14e-01     0s
+   4   5.91598968e+02  5.91034564e+02  6.90e-10 2.95e-13  2.21e-04     0s
+   5   5.91599198e+02  5.91598633e+02  9.09e-13 2.91e-11  2.22e-07     0s
+   6   5.91599198e+02  5.91599198e+02  4.55e-13 2.18e-11  2.22e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.91599198e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:08:00 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x51cc115b
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e-01, 4e+04]
+  QObjective range [5e-09, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.833e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.09569808e+10 -8.28319358e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.23942343e+06 -1.60549072e+07  9.40e+00 4.03e-03  6.59e+03     0s
+   2  -5.14722851e+03 -1.53636046e+05  1.68e-02 7.19e-06  6.05e+01     0s
+   3   5.77762508e+02  4.52039083e+01  3.97e-05 1.70e-08  2.14e-01     0s
+   4   5.91289379e+02  5.90722537e+02  6.88e-10 2.95e-13  2.22e-04     0s
+   5   5.91289615e+02  5.91289047e+02  4.55e-13 2.18e-11  2.23e-07     0s
+   6   5.91289615e+02  5.91289614e+02  4.55e-13 1.46e-11  2.23e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.91289615e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:20:31 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xab979b3b
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [1e+00, 4e+04]
+  QObjective range [4e-08, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.833e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.12559075e+10 -8.28301307e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.32721723e+06 -1.60549073e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -5.30726564e+03 -1.53649948e+05  1.68e-02 7.20e-06  6.05e+01     0s
+   3   5.77124956e+02  4.39305423e+01  3.98e-05 1.70e-08  2.15e-01     0s
+   4   5.91058295e+02  5.90489488e+02  6.86e-10 2.95e-13  2.23e-04     0s
+   5   5.91058536e+02  5.91057967e+02  1.82e-12 2.91e-11  2.23e-07     0s
+   6   5.91058536e+02  5.91058536e+02  1.36e-12 1.46e-11  2.24e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.91058536e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:32:37 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x6c839ee2
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e+00, 4e+04]
+  QObjective range [4e-08, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.01s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.833e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15706789e+10 -8.28287894e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.41966487e+06 -1.60549074e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -5.47540452e+03 -1.53662311e+05  1.68e-02 7.20e-06  6.05e+01     0s
+   3   5.76536769e+02  4.31659782e+01  3.99e-05 1.71e-08  2.15e-01     0s
+   4   5.90881556e+02  5.90311363e+02  6.85e-10 2.95e-13  2.24e-04     0s
+   5   5.90881803e+02  5.90881232e+02  5.68e-13 2.18e-11  2.24e-07     0s
+   6   5.90881803e+02  5.90881803e+02  1.82e-12 2.18e-11  2.24e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.90881803e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:43:51 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xfe1f3aa7
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [7e+00, 4e+04]
+  QObjective range [4e-08, 4e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.833e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.18906639e+10 -8.28269282e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.51364411e+06 -1.60549072e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -5.64630838e+03 -1.53674261e+05  1.68e-02 7.20e-06  6.05e+01     0s
+   3   5.75991913e+02  4.29024616e+01  3.99e-05 1.71e-08  2.15e-01     0s
+   4   5.90738329e+02  5.90167379e+02  6.83e-10 2.91e-13  2.24e-04     0s
+   5   5.90738583e+02  5.90738011e+02  9.09e-13 1.46e-11  2.24e-07     0s
+   6   5.90738583e+02  5.90738582e+02  9.09e-13 2.18e-11  2.24e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.90738583e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:51:37 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x4a5de6da
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [4e-01, 4e+04]
+  QObjective range [4e-08, 5e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.828e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.22074208e+10 -8.28258546e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.60667508e+06 -1.60549074e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -5.81517029e+03 -1.53684136e+05  1.68e-02 7.21e-06  6.05e+01     0s
+   3   5.75447918e+02  4.20353614e+01  4.00e-05 1.71e-08  2.15e-01     0s
+   4   5.90618082e+02  5.90045783e+02  6.83e-10 7.28e-12  2.25e-04     0s
+   5   5.90618341e+02  5.90617768e+02  1.36e-12 1.46e-11  2.25e-07     0s
+   6   5.90618341e+02  5.90618341e+02  6.82e-13 1.46e-11  2.25e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.90618341e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 19:59:53 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xb87ad355
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e-03, 4e+04]
+  QObjective range [4e-08, 5e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.01s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.828e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.25283718e+10 -8.28234643e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.70093815e+06 -1.60549072e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -5.98585703e+03 -1.53691929e+05  1.68e-02 7.21e-06  6.05e+01     0s
+   3   5.74878461e+02  4.03593966e+01  4.01e-05 1.72e-08  2.16e-01     0s
+   4   5.90514019e+02  5.89939540e+02  6.80e-10 2.91e-13  2.25e-04     0s
+   5   5.90514285e+02  5.90513710e+02  1.36e-12 1.46e-11  2.26e-07     0s
+   6   5.90514285e+02  5.90514284e+02  4.55e-13 1.46e-11  2.26e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.90514285e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 20:11:52 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x6e25a2d4
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [5e+00, 4e+04]
+  QObjective range [4e-08, 5e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.811e+04
+ Factor NZ  : 1.306e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.849e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.28503123e+10 -8.28211277e+07  3.20e+04 1.37e+01  1.00e+06     0s
+   1  -3.79549235e+06 -1.60549072e+07  9.40e+00 4.02e-03  6.59e+03     0s
+   2  -6.15687688e+03 -1.53698600e+05  1.68e-02 7.21e-06  6.06e+01     0s
+   3   5.74293914e+02  3.81649762e+01  4.04e-05 1.73e-08  2.17e-01     0s
+   4   5.90422854e+02  5.89845657e+02  6.78e-10 2.91e-13  2.26e-04     0s
+   5   5.90423125e+02  5.90422547e+02  9.09e-13 2.91e-11  2.27e-07     0s
+   6   5.90423125e+02  5.90423125e+02  4.55e-13 2.91e-11  2.27e-10     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.90423125e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 23:22:18 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xb0912372
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [7e-02, 1e+03]
+  QObjective range [1e-01, 6e+03]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 0.01s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.01s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 6.127e+04
+ Factor NZ  : 1.482e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 1.014e+07 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.36807335e+07 -1.05457621e+08  3.20e+04 7.09e+00  1.00e+06     0s
+   1   3.08337332e+06 -7.17876393e+06  6.50e+00 1.44e-03  4.24e+03     0s
+   2   3.10765637e+06  3.02789765e+06  7.66e-03 1.70e-06  3.13e+01     0s
+   3   3.10766281e+06  3.10754915e+06  2.38e-06 5.27e-10  4.46e-02     0s
+   4   3.10766282e+06  3.10766270e+06  1.97e-11 2.98e-12  4.49e-05     0s
+   5   3.10766282e+06  3.10766282e+06  2.27e-13 3.52e-12  4.50e-08     0s
+   6   3.10766282e+06  3.10766282e+06  3.41e-13 3.30e-12  4.50e-11     0s
+
+Barrier solved model in 6 iterations and 0.07 seconds
+Optimal objective 3.10766282e+06
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 23:38:20 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xaf3e5b01
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [1e+02, 2e+04]
+  QObjective range [8e-05, 2e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 6.081e+04
+ Factor NZ  : 1.482e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 1.014e+07 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.00143059e+09 -9.57714885e+07  3.20e+04 1.01e+01  1.00e+06     0s
+   1  -1.81804940e+06 -1.53393688e+07  6.40e+00 2.02e-03  6.21e+03     0s
+   2  -2.54426311e+03 -1.00670464e+05  1.15e-02 3.61e-06  3.98e+01     0s
+   3   6.55573531e+02  5.06694678e+02  3.28e-06 1.03e-09  5.87e-02     0s
+   4   6.56487135e+02  6.56335249e+02  4.91e-11 7.28e-12  5.96e-05     0s
+   5   6.56487148e+02  6.56486996e+02  1.82e-12 1.09e-11  5.96e-08     0s
+   6   6.56487148e+02  6.56487148e+02  3.41e-13 7.28e-12  5.97e-11     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 6.56487148e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Fri Sep 25 23:49:29 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x3b52cf15
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [1e+02, 3e+04]
+  QObjective range [2e-12, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.01s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.937e+04
+ Factor NZ  : 1.309e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.867e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -9.88143048e+09 -9.68894445e+07  3.20e+04 1.01e+01  1.00e+06     0s
+   1  -1.99386532e+06 -1.53394160e+07  6.40e+00 2.02e-03  6.21e+03     0s
+   2  -2.79088040e+03 -9.98576303e+04  1.11e-02 3.50e-06  3.94e+01     0s
+   3   6.14741681e+02  4.79734336e+02  1.69e-06 5.34e-10  5.32e-02     0s
+   4   6.15252969e+02  6.15115596e+02  2.48e-11 5.46e-12  5.39e-05     0s
+   5   6.15252976e+02  6.15252839e+02  9.09e-13 9.09e-12  5.39e-08     0s
+   6   6.15252976e+02  6.15252976e+02  9.09e-13 1.09e-11  5.40e-11     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 6.15252976e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Sat Sep 26 00:02:09 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0xaed5697e
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [7e+01, 3e+04]
+  QObjective range [5e-12, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.838e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.00730181e+10 -9.68159178e+07  3.20e+04 1.01e+01  1.00e+06     0s
+   1  -2.03207837e+06 -1.53394229e+07  6.40e+00 2.02e-03  6.21e+03     0s
+   2  -2.74890103e+03 -9.89651778e+04  1.07e-02 3.38e-06  3.91e+01     0s
+   3   6.02379483e+02  4.64449841e+02  2.05e-06 6.45e-10  5.43e-02     0s
+   4   6.03012186e+02  6.02871751e+02  3.00e-11 1.09e-11  5.51e-05     0s
+   5   6.03012195e+02  6.03012055e+02  4.55e-13 7.28e-12  5.51e-08     0s
+   6   6.03012195e+02  6.03012195e+02  1.82e-12 1.09e-11  5.52e-11     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 6.03012195e+02
+
+
+Gurobi 9.0.2 (mac64) logging started Sat Sep 26 00:14:26 2020
+
+Changed value of parameter LogFile to logFiles/ExampleTFA.log
+   Prev:   Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 50 rows, 2550 columns and 2550 nonzeros
+Model fingerprint: 0x6154ecc0
+Model has 13413 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-02, 2e-02]
+  Objective range  [3e+01, 3e+04]
+  QObjective range [8e-12, 3e+04]
+  Bounds range     [1e-04, 1e-04]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve time: 0.00s
+Presolved: 50 rows, 2550 columns, 2550 nonzeros
+Presolved model has 13413 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 2244
+ AA' NZ     : 5.843e+04
+ Factor NZ  : 1.307e+05 (roughly 4 MBytes of memory)
+ Factor Ops : 7.855e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.00965356e+10 -9.68544750e+07  3.20e+04 1.01e+01  1.00e+06     0s
+   1  -2.03672874e+06 -1.53394290e+07  6.40e+00 2.02e-03  6.21e+03     0s
+   2  -2.73323142e+03 -9.87598690e+04  1.06e-02 3.35e-06  3.90e+01     0s
+   3   5.96927957e+02  4.53131453e+02  2.66e-06 8.39e-10  5.67e-02     0s
+   4   5.97757910e+02  5.97611336e+02  3.91e-11 1.09e-11  5.75e-05     0s
+   5   5.97757922e+02  5.97757776e+02  4.55e-13 1.09e-11  5.75e-08     0s
+   6   5.97757922e+02  5.97757922e+02  4.55e-13 1.09e-11  5.76e-11     0s
+
+Barrier solved model in 6 iterations and 0.05 seconds
+Optimal objective 5.97757922e+02
+

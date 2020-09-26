@@ -47,6 +47,7 @@ python TFAinference.py -e hkMatrixE_optimize.csv -c hkSignedBinaryCS.csv -i 20 -
 
 
 Expected printed output:
+
 **the numbers won't be exactly the same because a new random set of starting CS values is generated with each execution**
   
     Variance explained and error from random CS values:  -2369.709 3293052.697 
@@ -70,41 +71,21 @@ Expected printed output:
 Expected file outputs:
 
 logFiles/ExampleCSiteration0.csv - ExampleCSiteration19.csv
-
-    these are the CS values inferred across 20 iterations
-
 logFiles/ExampleTFAiteration0.csv - ExampleTFAiteration19.csv
 
-    these are the TFA values inferred across 20 iterations
+    these are the CS/TFA values inferred across 20 iterations
 
 logFiles/ExampleCS.log
-
-    this is the gurobi output when optimizing CS values
-    logged output from each iteration is appended to the end of this file
-
 logFiles/ExampleTFA.log
 
-    this is the gurobi output when optimizing TFA values
-    logged output from each iteration is appended to the end of this file
-
-logFiles/ExampleCrossCheck.log
-
-    this is the gurobi output when optimizing TFA values for the optional second expression dataset
+    this is the gurobi output when optimizing CS values / TFA values / TFA values for the optional -v input
     logged output from each iteration is appended to the end of this file
 
 modelFiles/ExampleCS.lp
-
-    this is the model file created for gurobi to optimize CS values
-    at each iteration, the entire file is updated to match the current model
-
 modelFiles/ExampleTFA.lp
-
-    this is the model file created for gurobi to optimize TFA values
-    at each iteration, the entire file is updated to match the current model
-
 modelFiles/ExampleCrossCheck.lp
 
-    this is the model file created for gurobi to optimize TFA values for the optional dataset
+    this is the model file created for gurobi to optimize CS values / TFA values / TFA values for the optional -v input
     at each iteration, the entire file is updated to match the current model
 
 
