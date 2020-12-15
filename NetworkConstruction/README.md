@@ -163,81 +163,39 @@ zev/zev_sample_list_unperturbed.csv
 
 Example run 2:
 
+python construct_network.py -n 50 -d 0 -e input/kemmerenKOexpressionMatrixTrimmed.csv -lr 1250 -mt 2
 
+    Edge score within rank 1250 : 1.3135128999999999
+    Starting network construction...
+    Found 50 TFs. Highest rank 450 , Score: 1.9088551999999999
+    Removing unidentifiability...
+    40 TFs in network
+    Found 50 TFs. Highest rank 900 , Score: 1.4335577
+    Removing unidentifiability...
+    44 TFs in network
+    Found 50 TFs. Highest rank 1050 , Score: 1.3411203999999999
+    Removing unidentifiability...
+    45 TFs in network
+    Cannot find 50 TFs with rank threshold of 1250
 
-
-
-Edge score within rank 1250 : 1.3135128999999999
-Starting network construction...
-Found 50 TFs. Highest rank 567 , Score: 1.6255416999999999
-Removing unidentifiability...
-29 TFs in network
-Cannot find 50 TFs with rank threshold of 1250
-
-
-Expected output:
-
-    TFA values will be evaluated according to sample labeling of perturbed TFs
-    Perturbation direction is increased activity
-    Median rank percentile of perturbed TFs:
-	    86.0 	p-value:  1.55e-09
-    Percent of TFA changes in expected direction:
-	    0.78 	p-value:  4.51e-05
-    [====================]100% creating null distribution
-    Percent positive correlation between TFA and mRNA:
-	    0.78 	p-value:  4.51e-05
-    Percent positive correlation between TFA and mRNA (bootstrapped median):
-	    0.72 	p-value:  0.00e+00
-
-
--a
-
-    a csv file of TF activity values, arranged as a TF x samples matrix
-    this is required input
--m
-
-    a csv file of TF gene expression values that matches the arrangement of the TFA file
-    this file is used to calculate the positive correlation metric
-    the percent of TFs with a positive correlation is calculated 
-      p-value is calculated as probability to get that percentage with # coin flips = # TFs
-    the median percentage of TFs with a positive correlation across 1000 bootstrap samples is calculated
-    
--t
-
-    a file that labels the rows of the activity matrix with TF names
-    
--s
-
-    a file that labels the columns of the activity matrix
-    if a sample has an expected change in TFA, it should be named with that TF to match the TF file
-    wherever the sample and tf labels match, the TFA value will be used for calculating the correct direction and median rank metrics
-    
--w
-
-    the column index of the reference or WT sample
-    default is -1 for the last column
-    
--p
-
-    the direction of TFA perturbation
-    0 indicates low activity
-    2 indicates high activity
-    
--b
-
-    yes (1) or no (0) to calculate the significance of the median positive correlation across 1000 bootstraps
-    default is 0 since it takes up to an hour to run
-    this will create a null distribution of 1000 results from randomly pairing activity levels of one TF with the gene expression levels of another
 
 Calls for networks evaluated in Fig2A of Ma&Brent2020:
 
-ChIP-CC and ChIP-PC using ZEV data as prior knowledge
+ChIP-CC and ChIP-PC networks
 
-    python construct_network.py -n 50 -d 2 -e input/harbison_ChIP_score_matrix_trimmed.csv -lr 1250 -mt 2
+    python construct_network.py -n 50 -d 0 -e input/harbison_ChIP_score_matrix_trimmed.csv -lr 1250 -mt 2
+
+DE-PC using TFKO data as prior knowledge
+
+    python construct_network.py -n 50 -d 0 -e input/kemmerenKOexpressionMatrixTrimmed.csv -lr 1400 -mt 2
 
 DE-PC using ZEV data as prior knowledge
-    python construct_network.py -n 50 -d 2 -e input/harbison_ChIP_score_matrix_trimmed.csv -lr 1250 -mt 2
 
+    python construct_network.py -n 50 -d 2 -e input/zev15minExpressionMatrixTrimmed.csv -lr 1250 -mt 2
+
+PWM-PC networks
+
+    python construct_network.py -n 50 -d 0 -e input/PWM_max_pVal_matrix_trimmed.csv -lr 1250 -mt 2
 
 
 

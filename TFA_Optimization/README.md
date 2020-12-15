@@ -8,10 +8,45 @@ Package requirements to run:
 2. python 2.7 or python 3.6
 3. numpy
 
+Files in Paper datasets directory:
+
+glucoseInflux_0p02percent_0p2percent_expressionData.csv
+
+    a csv file of gene expression data published by Ronen and Botstein, 2006
+    the first series, labeled by timepoints, is gene expression data after glucose influx of 0.02%
+    the second series, labeled by timepoints, is gene expression data after glucose influx of 0.2%
+    duplicate gene expression measurements were removed by dropping the row(s) with less total abs value
+
+glucoseInflux_2percent_expressionData.csv
+
+    a csv file of gene expression data published by Apweiler et al, 2012
+    labeled by timepoints, samples are gene expression data after glucose influx of 2%
+
+TFdoubleKOexpressionData.csv
+
+    a csv file of gene expression data published by Sameith et al, 2015
+    gene expression data of steady state cells with two TF-encoding genes deleted
+
+zamanExpressionDataRescaled.csv
+zamanSampleKey.csv
+
+    a csv file of gene expression data published by Zaman et al, 2009
+    includes time series of various conditions and genotypes, with a key file for looking up sample labels
+
+zev15minExpressionData.csv
+zevAllExpressionData.csv
+
+    csv files of gene expression data published by Hackett et al, 2020
+    includes multiple inductions of TF-encoding genes
+	the first file with 15min timepoint
+	the second file is grouped by timepoints 2.5, 5, 10, 20, 30, 45, 60, and 90min
+
+
 Other notes:
 
 1. code assumes the existence of subdirectories logFiles and modelFiles for logging results during optimization
 2. Gurobi offers free academic licenses for their optimizer at gurobi.com > Academia > Academic Program and Licenses
+3. data in Paper datasets directory can be subsetted to run TFA inference as reported in the paper
 
 Example run:
 

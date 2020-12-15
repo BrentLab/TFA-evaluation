@@ -1,6 +1,6 @@
 # TFA-evaluation
 
-Code that evaluates inferred TFA values according to three metrics described in
+Code that evaluates inferred TFA values according to three metrics described in Ma&Brent 2020
 
 1. Fraction of TFs who are predicted to change activity in the *correct direction*
 2. *Median rank* percentile of perturbed TF in each sample with a known perturbation
@@ -9,8 +9,8 @@ Code that evaluates inferred TFA values according to three metrics described in
 Package requirements to run:
 
 1. python 2.7 or python 3.6
-2. numpy
-3. scipy
+2. numpy 1.18
+3. scipy 1.4
 
 Example run 1:
 

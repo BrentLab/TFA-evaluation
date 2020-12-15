@@ -1,0 +1,203 @@
+﻿102094,Y2092 Rapamycin 20min [0.1nm] (yeast exp with rap2)
+102111,Y2092 Rapamycin 20min [0.3nM] (yeast exp with rap2)
+102009,Y2092 Rapamycin 20min [0nm] (yeast exp with rapamycin)
+102016,Y2092 Rapamycin 20min [100nm] (yeast exp with rapamycin)
+102011,Y2092 Rapamycin 20min [10nm] (yeast exp with rapamycin)
+102075,Y2092 Rapamycin 20min [1nm] (yeast exp with rapamycin2)
+102012,Y2092 Rapamycin 20min [20nm] (yeast exp with rapamycin)
+102078,Y2092 Rapamycin 20min [30nm] (yeast exp with rapamycin2)
+102076,Y2092 Rapamycin 20min [3nm] (yeast exp with rapamycin2)
+102013,Y2092 Rapamycin 20min [40nm] (yeast exp with rapamycin)
+102010,Y2092 Rapamycin 20min [5nm] (yeast exp with rapamycin)
+102014,Y2092 Rapamycin 20min [60nm] (yeast exp with rapamycin)
+102015,Y2092 Rapamycin 20min [80nm] (yeast exp with rapamycin)
+108101,Y2092 Rapamycin 30min USE (Y2092 DMSO vs Rapamycin)
+107719,Y2092 Rapamycin 30min (W303 New Rapamycin)
+109162,Y2092 Rapamycin 30min Apr08 (Sch9(2D3E) CEN Rapamycin)
+102096,Y2092 Rapamycin 40min [0.1nm] (yeast exp with rap2)
+102097,Y2092 Rapamycin 40min [0.3nM] (yeast exp with rap2)
+102017,Y2092 Rapamycin 40min [0nm] (yeast exp with rapamycin)
+102024,Y2092 Rapamycin 40min [100nm] (yeast exp with rapamycin)
+102019,Y2092 Rapamycin 40min [10nm] (yeast exp with rapamycin)
+102098,Y2092 Rapamycin 40min [1nm] (yeast exp with rap2)
+102020,Y2092 Rapamycin 40min [20nm] (yeast exp with rapamycin)
+102101,Y2092 Rapamycin 40min [30nm] (yeast exp with rap2)
+102099,Y2092 Rapamycin 40min [3nm] (yeast exp with rap2)
+102021,Y2092 Rapamycin 40min [40nm] (yeast exp with rapamycin)
+102018,Y2092 Rapamycin 40min [5nm] (yeast exp with rapamycin)
+102022,Y2092 Rapamycin 40min [60nm] (yeast exp with rapamycin)
+102023,Y2092 Rapamycin 40min [80nm] (yeast exp with rapamycin)
+102104,Y2092 Rapamycin 60min [0.1nm] (yeast exp with rap2)
+102105,Y2092 Rapamycin 60min [0.3nM] (yeast exp with rap2)
+102066,Y2092 Rapamycin 60min [0nm] (yeast exp with rapamycin)
+102031,Y2092 Rapamycin 60min [100nm] (yeast exp with rapamycin)
+102026,Y2092 Rapamycin 60min [10nm] (yeast exp with rapamycin)
+102106,Y2092 Rapamycin 60min [1nm] (yeast exp with rap2)
+102027,Y2092 Rapamycin 60min [20nm] (yeast exp with rapamycin)
+102109,Y2092 Rapamycin 60min [30nm] (yeast exp with rap2)
+102107,Y2092 Rapamycin 60min [3nm] (yeast exp with rap2)
+102028,Y2092 Rapamycin 60min [40nm] (yeast exp with rapamycin)
+102025,Y2092 Rapamycin 60min [5nm] (yeast exp with rapamycin)
+102029,Y2092 Rapamycin 60min [60nm] (yeast exp with rapamycin)
+102030,Y2092 Rapamycin 60min [80nm] (yeast exp with rapamycin)
+101955,snf1as 0.05%glu 120 min/0 min (snf1 high to low glu+0.4uM mMe)
+101956,snf1as 0.05%glu 150 min/0 min (snf1 high to low glu+0.4uM mMe)
+101125,snf1as 0.05%glu 20 min/0 min (snf1 high to low glu+0.4uM23DM)
+101123,snf1as 0.05%glu 40 min/0 min (snf1 high to low glu+0.4uM23DM)
+101135,snf1as 0.05%glu 60 min/0 min (snf1 high to low glu+0.4uM23DM)
+101130,snf1as 0.05%glu 80 min/0 min (snf1 high to low glu+0.4uM23DM)
+101907,snf1as 0.05%glu + 0.4uM mMe 120 min/0 min (snf1 high to low glu+0.4uM mMe)
+101957,snf1as 0.05%glu + 0.4uM mMe 150 min/0 min (snf1 high to low glu+0.4uM mMe)
+101115,snf1as 0.05%glu+0.4uM 23DM 20 min/0 min (snf1 high to low glu+0.4uM23DM)
+101114,snf1as 0.05%glu+0.4uM 23DM 40 min/0 min (snf1 high to low glu+0.4uM23DM)
+101117,snf1as 0.05%glu+0.4uM 23DM 60 min/0 min (snf1 high to low glu+0.4uM23DM)
+101116,snf1as 0.05%glu+0.4uM 23DM 80 min/0 min (snf1 high to low glu+0.4uM23DM)
+105698,pka sch9 0min/ WT 0min (autophagy_2_17_07)
+101048,"WT 0 min/snf1as 0 min, Control 1 (snf1 0.4uM mMe)"
+101132,"WT 0 min/snf1as 0 min, snf1 con 2 (snf1 high to low glu+0.4uM23DM)"
+101271,rgt2::KANMX 2%glu 20 min/0 min (RGT2-1)
+101272,rgt2::KANMX 2%glu 40 min/0 min (RGT2-1)
+101273,rgt2::KANMX 2%glu 60 min/0 min (RGT2-1)
+101274,rgt2::KANMX 2%glu 80 min/0 min (RGT2-1)
+101276,rgt2::KANMX 0 min/WT 0min (RGT2-1)
+101958,snf1D 0.05%glu 120 min/0 min (snf1 high to low glu+0.4uM mMe)
+101959,snf1D 0.05%glu 150 min/0 min (snf1 high to low glu+0.4uM mMe)
+105501,CAT8-GFP-TADH1-TRP1 0 min/WT 0 min
+105496,CAT8-GFP-TADH1-TRP1 2%glu 20 min/0 min
+105497,CAT8-GFP-TADH1-TRP1 2%glu 40 min/0 min
+105498,CAT8-GFP-TADH1-TRP1 2%glu 60 min/0 min
+105499,CAT8-GFP-TADH1-TRP1 2%glu 80 min/0 min
+101275,GAL10p-RGT2-1 (2 copies) 0 min/WT 0 min
+101267,GAL10p-RGT2-1 (2 copies) 2%gal 20 min/0 min
+101268,GAL10p-RGT2-1 (2 copies) 2%gal 40 min/0 min
+101269,GAL10p-RGT2-1 (2 copies) 2%gal 60 min/0 min
+101270,GAL10p-RGT2-1 (2 copies) 2%gal 80 min/0 min
+104734,GAL10pGPA2(Q300L) tpkas 0 min/WT 0 min
+104779,GAL10pGPA2(Q300L) tpkas 2%gal 20 min/0 min
+104780,GAL10pGPA2(Q300L) tpkas 2%gal 40 min/0 min
+104781,GAL10pGPA2(Q300L) tpkas 2%gal 60 min/0 min
+104782,GAL10pGPA2(Q300L) tpkas 2%gal 80 min/0 min
+104775,GAL10pGPA2(Q300L) tpkas 2%gal+100nM 1NMPP1 20 min/0 min
+104776,GAL10pGPA2(Q300L) tpkas 2%gal+100nM 1NMPP1 40 min/0 min
+104777,GAL10pGPA2(Q300L) tpkas 2%gal+100nM 1NMPP1 60 min/0 min
+104778,GAL10pGPA2(Q300L) tpkas 2%gal+100nM 1NMPP1 80 min/0 min
+104733,GAL10pGPA2(Q300L) tpkas sch9as 0 min/WT 0 min
+104720,GAL10pGPA2(Q300L) tpkas sch9as 2%gal 20 min/0 min
+104721,GAL10pGPA2(Q300L) tpkas sch9as 2%gal 40 min/0 min
+104722,GAL10pGPA2(Q300L) tpkas sch9as 2%gal 60 min/0 min
+104723,GAL10pGPA2(Q300L) tpkas sch9as 2%gal 80 min/0 min
+104716,GAL10pGPA2(Q300L) tpkas sch9as 2%gal+100nM 1NMPP1 20 min/0 min
+104717,GAL10pGPA2(Q300L) tpkas sch9as 2%gal+100nM 1NMPP1 40 min/0 min
+104718,GAL10pGPA2(Q300L) tpkas sch9as 2%gal+100nM 1NMPP1 60 min/0 min
+104719,GAL10pGPA2(Q300L) tpkas sch9as 2%gal+100nM 1NMPP1 80 min/0 min
+102113,GAL10pRAS2(G19V) 2%gal 20 min/0 min
+102115,GAL10pRAS2(G19V) 2%gal 40 min/0 min
+102116,GAL10pRAS2(G19V) 2%gal 60 min/0 min
+102114,GAL10pRAS2(G19V) 2%gal 80 min/0 min
+102037,GAL1pSCH9 2%gal 20 min/0 min
+102038,GAL1pSCH9 2%gal 40 min/0 min
+102039,GAL1pSCH9 2%gal 60 min/0 min
+102040,GAL1pSCH9 2%gal 80 min/0 min
+109418,Glucose 0.02% 20min
+105500,ICL1-GFP-TADH1-TRP1 0 min/WT 0 min
+105492,ICL1-GFP-TADH1-TRP1 2%glu 20 min/0 min
+105493,ICL1-GFP-TADH1-TRP1 2%glu 40 min/0 min
+105494,ICL1-GFP-TADH1-TRP1 2%glu 60 min/0 min
+105495,ICL1-GFP-TADH1-TRP1 2%glu 80 min/0 min
+100989,Ras N24 -60/ WT -60
+101154,Ras N24 -60/+60 reloaded
+100548,Ras N24 -60/0
+100927,Ras N24 -60/20
+100928,Ras N24 -60/40
+102759,SZ297 2% glu (0+20)
+102761,SZ297 2% glu (0+40)
+102760,SZ297 2% glu (0+60)
+102762,SZ297 2% glu (0+80)
+105340,UTP5-GFP-TADH1-TRP1 0 min/WT 0 min
+105339,UTP5-GFP-TADH1-TRP1 2%glu 60 min/0 min
+100546,WT -60/0
+100547,WT -60/20
+100925,WT -60/40
+100926,WT -60/60
+101045,WT 0 min/snf1as 0 min (snf1 control 2)
+101048,"WT 0 min/snf1as 0 min, Control 1"
+104055,WT 0 min/tpkas 0 min
+107342,WT 0.02% 2DG 20 min/0 min
+107343,WT 0.02% 2DG 40 min/0 min
+107344,WT 0.02% 2DG 60 min/0 min
+107345,WT 0.02% 2DG 80 min/0 min
+107346,WT 0.02% 6DG 20 min/0 min
+107347,WT 0.02% 6DG 40 min/0 min
+107348,WT 0.02% 6DG 60 min/0 min
+107349,WT 0.02% 6DG 80 min/0 min
+107467,WT 0.1% GLU 20 min/0 min
+107468,WT 0.25% GLU 20 min/0 min
+101028,WT 0.4uM mMe 20 min/0 min
+101029,WT 0.4uM mMe 40 min/0 min
+101030,WT 0.4uM mMe 60 min/0 min
+101031,WT 0.4uM mMe 80 min/0 min
+102931,WT 100nM 1NMPP1 20 min/0 min
+102933,WT 100nM 1NMPP1 40 min/0 min
+102934,WT 100nM 1NMPP1 60 min/0 min
+102935,WT 100nM 1NMPP1 80 min/0 min
+103060,WT 100nM 1NMPP1+2%glu 20 min/0 min
+103062,WT 100nM 1NMPP1+2%glu 40 min/0 min
+103061,WT 100nM 1NMPP1+2%glu 60 min/0 min
+103063,WT 100nM 1NMPP1+2%glu 80 min/0 min
+101265,WT 2%gal 20 min/0 min Set1
+101266,WT 2%gal 40 min/0 min Set1
+101263,WT 2%gal 60 min/0 min Set1
+101264,WT 2%gal 80 min/0 min Set1
+100573,WT 2%glu 15 min/0 min Set1
+101020,WT 2%glu 20 min/0 min Set2
+101259,WT 2%glu 20 min/0 min Set3
+105488,WT 2%glu 20 min/0 min Set4
+100578,WT 2%glu 30 min/0 min Set1
+101021,WT 2%glu 40 min/0 min Set2
+101260,WT 2%glu 40 min/0 min Set3
+105489,WT 2%glu 40 min/0 min Set4
+100565,WT 2%glu 45 min/0 min Set1
+100564,WT 2%glu 60 min/0 min Set1
+101022,WT 2%glu 60 min/0 min Set2
+101261,WT 2%glu 60 min/0 min Set3
+105490,WT 2%glu 60 min/0 min Set4
+101023,WT 2%glu 80 min/0 min Set2
+101262,WT 2%glu 80 min/0 min Set3
+105491,WT 2%glu 80 min/0 min Set4
+107717,Y2092 Glucose 0.0025 %
+108951,Y3622 Galactose 1NMPP1 20min
+108952,Y3622 Galactose 1NMPP1 60min
+108949,Y3622 Galactose 20min
+108950,Y3622 Galactose 60min
+102940,gpr1 0 min/WT 0 min
+102944,sch9as 0 min/WT 0 min
+102932,sch9as 100nM 1NMPP1+2%glu 20 min/0 min
+102936,sch9as 100nM 1NMPP1+2%glu 40 min/0 min
+102937,sch9as 100nM 1NMPP1+2%glu 60 min/0 min
+102939,sch9as 100nM 1NMPP1+2%glu 80 min/0 min
+102938,sch9as 2%glu 20 min/0 min
+102941,sch9as 2%glu 40 min/0 min
+102942,sch9as 2%glu 60 min/0 min
+102943,sch9as 2%glu 80 min/0 min
+105342,sch9as PAU13-GFP-TADH1-TRP1 0 min/ PAU13-GFP-TADH1-TRP1 0 min
+101035,snf1as 0.4uM mMe 20 min/0 min
+101036,snf1as 0.4uM mMe 40 min/0 min
+101037,snf1as 0.4uM mMe 60 min/0 min
+101047,snf1as 0.4uM mMe 80 min/0 min
+101032,snf1as 2%glu 20 min/0 min Set1
+101033,snf1as 2%glu 40 min/0 min Set1
+101034,snf1as 2%glu 60 min/0 min Set1
+101046,snf1as 2%glu 80 min/0 min Set1
+104050,tpkas 1NMPP1+2%glu 20 min/0 min
+104051,tpkas 1NMPP1+2%glu 40 min/0 min
+104052,tpkas 1NMPP1+2%glu 60 min/0 min
+104053,tpkas 1NMPP1+2%glu 80 min/0 min
+103072,tpkas sch9as 0 min/WT 0 min
+103064,tpkas sch9as 100nM 1NMPP1+2%glu 20 min/0 min
+103066,tpkas sch9as 100nM 1NMPP1+2%glu 40 min/0 min
+103068,tpkas sch9as 100nM 1NMPP1+2%glu 60 min/0 min
+103067,tpkas sch9as 100nM 1NMPP1+2%glu 80 min/0 min
+103069,tpkas sch9as 2%glu 20 min/0 min
+103070,tpkas sch9as 2%glu 40 min/0 min
+103071,tpkas sch9as 2%glu 60 min/0 min
+103065,tpkas sch9as 2%glu 80 min/0 min
